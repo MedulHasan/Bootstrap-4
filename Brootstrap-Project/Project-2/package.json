@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Medul Hasan\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[\u001b[\u001b[C\u001b[C\u001b[C\u001b[CHasan",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
