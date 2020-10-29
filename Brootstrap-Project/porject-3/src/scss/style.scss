@@ -1,0 +1,213 @@
+section {
+    span {
+        display: block;
+        font-size: 1.75rem;
+    }
+}
+
+#nav_bar {
+    .navbar-nav {
+        font-size: 1.25rem;
+    }
+    img {
+        width: 45px;
+        height: 45px;
+    }
+}
+#heading {
+    img {
+        height: 450px;
+    }
+}
+#turningGears {
+    .fa {
+        font-size: 40px;
+        color: #000;
+    }
+}
+
+#ready {
+    color: #fff;
+    position: relative;
+    background: url('../img/ready.jpg') top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+
+    span {
+        font-size: 2rem;
+    }
+
+}
+#ready .dark-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#vedio {
+    // color: #ffffff;
+    background: url('../img/bg-vedio.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    span {
+        font-size: 2rem;
+    }
+
+    .fa {
+        color: red;
+        font-size: 60px;
+    }
+}
+.darkoverlay{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#gallery {
+    img {
+        min-height: 350px;
+    }
+}
+
+#copyright {
+    background: #000;
+} 
+
+#newsleter {
+    span {
+        font-size: 2rem;
+    }
+}
+
+// about us
+#aboutUs {
+    background: url('../img/aboutus1.jpg') top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 270px;
+
+    span {
+        font-size: 3.5rem;
+    }
+}
+#whatWeDo {
+    img {
+        width: 350px;
+        height: 350px;
+    }
+}
+#card {
+    a {
+        font-size: 30px;
+    }
+    span {
+        font-size: 2rem;
+    }
+}
+#testimonial {
+    .slick-prev:before,
+    .slick-next:before {
+        color: #000;
+    }
+}
+
+// services
+#cardSection {
+    .cardRow {
+        h3 {
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.25rem;
+        }
+        ul {
+            li {
+                font-size: 1.25rem;
+            }
+            
+        }
+    }
+}
+#askedquestion {
+    span {
+        font-size: 2.5rem;
+    }
+}
+
+// blog
+#blog {
+    background: url('../img/blog1.jpg') center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 270px;
+
+    span {
+        font-size: 3.5rem;
+        color: #fff;
+    }
+    p {
+        color: #fff;
+    }
+}
+// contact
+#contact {
+    background: url('../img/contact1.jpg') center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 270px;
+
+    span {
+        font-size: 3.5rem;
+        color: #fff;
+    }
+    p {
+        color: #fff;
+    }
+}
+
+@media(max-width: 768px) {
+    #heading {
+        .slideText {
+            span {
+                font-size: 3rem;
+            }
+            p {
+                font-size: 18px;
+            }
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    #heading {
+        .slideText {
+            span {
+                font-size: 2.5rem;
+            }
+            p {
+                font-size: 16px;
+            }
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    #ready {
+        min-height: 300px;
+    }
+}
+@media(max-width: 480px) {
+    #ready {
+        min-height: 400px;
+    }
+}
